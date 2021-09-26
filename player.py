@@ -1,7 +1,8 @@
+import os
 import mpv
 from config import THRESHOLD
 
-player = mpv.MPV(input_default_bindings=True, input_vo_keyboard=True)
+player = mpv.MPV(input_default_bindings=True, input_vo_keyboard=True, osc=True)
 player.fullscreen = False
 player.loop_playlist = 'inf'
 player['vo'] = 'gpu'

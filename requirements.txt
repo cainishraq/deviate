@@ -1,3 +1,5 @@
 moviepy
 pygame
 opencv-python
+python-mpv
+easygui
