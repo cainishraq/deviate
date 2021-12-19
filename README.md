@@ -22,7 +22,7 @@ This program is meant to be a keyboard-focused clip editor for Windows and Linux
   
 ## Tips  
   
- - [!] This is an early build so save often and send screenshots of error messages  
+ - [!] This is an early build so save often and report error messages in the Issues tab  
  - Place input videos in videos/ folder, find exported clips in export/  
  - Edit config.py with any text editor to change settings  
  - Run the editor by double-clicking timeline.py  
