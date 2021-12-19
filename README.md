@@ -12,11 +12,13 @@ This program is meant to be a keyboard-focused clip editor for Windows and Linux
 1) Click the green "Code" button on this page then "Download ZIP" and extract  
 2) [Install the latest Python 3](https://www.python.org/downloads/) (enable "Add Python 3.x to PATH" in installer)  
 3) Run install.bat once without admin  
-4) Create export/ and videos/ folders in the deviate download folder  
+4) Create export/ and videos/ folders in the project directory  
   
 ## Linux  
 1) Click the green "Code" button on this page then "Download ZIP" and extract  
-  
+2) Install Python with your package manager
+3) Run "pip install -r requirements.txt" in the project directory
+4) Run "mkdir export && mkdir videos" in the project directory  
   
 ## Tips  
   
