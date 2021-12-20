@@ -10,12 +10,8 @@ This program is meant to be a keyboard-focused clip editor for Windows and Linux
   
 ### Windows  
 1) Click the green "Code" button on this page then "Download ZIP" and extract  
-2) [Install the latest Python 3](https://www.python.org/downloads/) (enable "Add Python 3.x to PATH" in installer)  
-3) Run install.bat once without admin  
-4) Create export/ and videos/ folders in the deviate download folder  
-  
-## Linux  
-1) Click the green "Code" button on this page then "Download ZIP" and extract  
+2) [Install the latest Python 3](https://www.python.org/downloads/) (windows users enable "Add Python 3.x to PATH" in installer)  
+3) Run install.bat once without admin (linux users run "pip install -r requirements.txt" in directory)  
   
   
 ## Tips  
@@ -30,16 +26,26 @@ This program is meant to be a keyboard-focused clip editor for Windows and Linux
   
 ## Controls
   
-Ctrl+K - kill detect: generate action indicators  
+### Timeline
   
-WASD - control master playhead  
-Numbers - set speed of master  
+Ctrl+k - kill detect: generate action indicators  
+  
+MINUS/EQUALS - zoom out/in
+  
+wasd - control master playhead  
 Tab - teleport master to next marker or action indicator  
 Space - teleport player to the last marker before the master  
   
-Q - place marker at master position (or player position if video focused)  
-E - place export pin at master (or player) position  
+q - place marker at master position  
+e - place export pin at master position  
   
-Ctrl+O - load save for current video if exists  
-Ctrl+S - create or overwrite save for current video  
-Ctrl+E - export clips  
+Ctrl+o - load save for current video if exists  
+Ctrl+s - create or overwrite save for current video  
+Ctrl+e - export clips  
+  
+### Video Player
+
+a/d - move player playhead left/right by 30 seconds
+
+q - place marker at player position
+e - place export pin at player position

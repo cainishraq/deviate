@@ -1,7 +1,5 @@
 # TODO  
   
-These are my planned and completed tasks for the development of Deviate Editor.  
-  
   
 ## Visual  
   
@@ -11,11 +9,14 @@ These are my planned and completed tasks for the development of Deviate Editor.
 - [ ] kill detect editor  
 - [ ] system popup instead of print  
   
+  
 ## Functional
   
+- [ ] new export directory
 - [ ] factor math code vomit  
 - [ ] undo control  
 - [ ] apex kill detect algo  
+- [ ] fix variable names
   
   
 ## Release  
@@ -23,6 +24,7 @@ These are my planned and completed tasks for the development of Deviate Editor.
 - [ ] add comments to killdetect  
 - [ ] release tab  
 - [ ] installer: install mpv and add to path  
+- [ ] streamline naming of pins/playhead/markers
   
   
 # DONE  
