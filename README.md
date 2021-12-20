@@ -10,13 +10,19 @@ This program is meant to be a keyboard-focused clip editor for Windows and Linux
   
 ### Windows  
 1) Click the green "Code" button on this page then "Download ZIP" and extract  
-2) [Install the latest Python 3](https://www.python.org/downloads/) (windows users enable "Add Python 3.x to PATH" in installer)  
-3) Run install.bat once without admin (linux users run "pip install -r requirements.txt" in directory)  
+2) [Install the latest Python 3](https://www.python.org/downloads/) (enable "Add Python 3.x to PATH" in installer)  
+3) Run install.bat once without admin  
+4) Create export/ and videos/ folders in the project directory  
   
+## Linux  
+1) Click the green "Code" button on this page then "Download ZIP" and extract  
+2) Install Python with your package manager
+3) Run "pip install -r requirements.txt" in the project directory
+4) Run "mkdir export && mkdir videos" in the project directory  
   
 ## Tips  
   
- - [!] This is an early build so save often and send screenshots of error messages  
+ - [!] This is an early build so save often and report error messages in the Issues tab  
  - Place input videos in videos/ folder, find exported clips in export/  
  - Edit config.py with any text editor to change settings  
  - Run the editor by double-clicking timeline.py  
