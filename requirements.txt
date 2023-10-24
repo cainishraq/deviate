@@ -1,3 +1,4 @@
+ez_setup
 moviepy
 pygame
 opencv-python

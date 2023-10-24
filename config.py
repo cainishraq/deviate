@@ -1,7 +1,7 @@
 SAVEDIR = r"%APPDATA%\Deviate"
 
 # TIMELINE
-FPS = 144 # preferred framerate of timeline program
+FPS = 60 # preferred framerate of timeline program
 PAD = 20 # border padding in pixels
 HEIGHT = 25 # height of lines/markers in pixels
 SPEED = 5 # master pin multiplier
